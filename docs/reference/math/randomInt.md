@@ -13,7 +13,7 @@ function randomInt(minimum: number, maximum: number): number;
 ### Parameters
 
 - `minimum` (`number`): The lower bound for the random number (inclusive).
-- `maximum` (`number`): The upper bound for the random number (inclusive).
+- `maximum` (`number`): The upper bound for the random number (exclusive).
 
 ### Returns
 
