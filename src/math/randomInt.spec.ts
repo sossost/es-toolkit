@@ -8,7 +8,7 @@ describe('randomInt function', () => {
     for (let i = 0; i < 100; i++) {
       const result = randomInt(min, max);
       expect(result).toBeGreaterThanOrEqual(min);
-      expect(result).toBeLessThanOrEqual(max);
+      expect(result).toBeLessThan(max);
       expect(Number.isInteger(result)).toBe(true);
     }
   });
@@ -19,7 +19,7 @@ describe('randomInt function', () => {
     for (let i = 0; i < 100; i++) {
       const result = randomInt(min, max);
       expect(result).toBeGreaterThanOrEqual(max);
-      expect(result).toBeLessThanOrEqual(min);
+      expect(result).toBeLessThan(min);
       expect(Number.isInteger(result)).toBe(true);
     }
   });
@@ -38,7 +38,7 @@ describe('randomInt function', () => {
     for (let i = 0; i < 100; i++) {
       const result = randomInt(min, max);
       expect(result).toBeGreaterThanOrEqual(min);
-      expect(result).toBeLessThanOrEqual(max);
+      expect(result).toBeLessThan(max);
       expect(Number.isInteger(result)).toBe(true);
     }
   });
@@ -49,7 +49,7 @@ describe('randomInt function', () => {
     for (let i = 0; i < 100; i++) {
       const result = randomInt(min, max);
       expect(result).toBeGreaterThanOrEqual(min);
-      expect(result).toBeLessThanOrEqual(max);
+      expect(result).toBeLessThan(max);
       expect(Number.isInteger(result)).toBe(true);
     }
   });
